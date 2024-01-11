@@ -1,0 +1,30 @@
+.about-container{
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     border-bottom: 1px solid #E6E7E9;
+}
+.about-head{
+    margin-bottom: 10px;
+}
+.about-content{
+    width: 520px;
+    font-size: 17px;
+    color: #5A6475;
+    text-align: center;
+    line-height: 25px;
+    font-weight: 600;
+   
+}
+@media screen and (max-width:600px){
+    .about-content{
+        width: fit-content;
+        text-align: start;
+    }
+    .about-container{
+        padding: 20px;align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
